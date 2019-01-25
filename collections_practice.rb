@@ -85,7 +85,6 @@ cool_person = []
     end
   end
 cool_person
-binding.pry
 end
 
 
