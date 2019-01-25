@@ -93,14 +93,14 @@ organized_hash = {}
     locate_info do |key, city|
       if organized_hash[location] == city
         organized_hash[location] << school_name
-      else 
+      else
         organized_hash << {city: school_name}
       end
     end
   end
 organized_hash
 end
-      
-         
-      
+
+
+
 end
