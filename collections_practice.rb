@@ -96,7 +96,7 @@ organized_hash = {}
       #  organized_hash[:city] << school_name
       #else
       #  organized_hash = {city: [school_name]}
-      end
+      #end
     end
   end
 organized_hash
