@@ -92,14 +92,14 @@ organized_hash = {}
   school_hash.each do |school_name, location|
     #binding.pry
     location.each do |key, city|
-      #binding.pry
+      binding.pry
       if organized_hash[:city] == city
         organized_hash[:city] << school_name
-      binding.pry
       elsif organized_hash = {}
         organized_hash = {city: [school_name]}
       else
         organized_hash = organized_hash.merge(city: [school_name])
+      binding.pry
       end
     end
   end
