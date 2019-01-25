@@ -89,7 +89,6 @@ end
 
 def organize_schools(school_hash)
 organized_hash = nil
-test = 0
   school_hash.each do |school_name, location|
     #binding.pry
     location.each do |key, city|
@@ -99,7 +98,8 @@ test = 0
         else
           organized_hash = organized_hash.merge({city => [school_name]})
         end
-      else organized_hash = {city => school_name}
+      else 
+        organized_hash = {city => school_name}
       end
     end
   end
