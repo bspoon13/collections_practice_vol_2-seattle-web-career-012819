@@ -84,7 +84,7 @@ cool_person = nil
       end
     end
   end
-cool_person        
+cool_person
 end
 
 
