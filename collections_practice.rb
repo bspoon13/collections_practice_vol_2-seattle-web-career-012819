@@ -59,33 +59,23 @@ counted
 end
 
 def merge_data(keys, data)
-<<<<<<< HEAD
 i = 0
-=======
-merged_array = []
->>>>>>> f82d14b38b3b74df83b488950a18ccaf7925f726
   keys.each do |person|
     person.each do |attribute, entry|
       data.each do |human|
         human.each do |name, stats|
           if name == entry
-<<<<<<< HEAD
             keys[i] = keys[i].merge(stats)
-=======
-            keys[person] << human
->>>>>>> f82d14b38b3b74df83b488950a18ccaf7925f726
           end
         end
       end
     end
-<<<<<<< HEAD
   i += 1
   end
 keys
-=======
-  end
->>>>>>> f82d14b38b3b74df83b488950a18ccaf7925f726
 end
+
+
 
 
 
