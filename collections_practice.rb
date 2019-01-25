@@ -92,15 +92,15 @@ organized_hash = nil
   school_hash.each do |school_name, location|
     #binding.pry
     location.each do |key, city|
-      if organized_hash
-        if organized_hash[city]
-          organized_hash[city] << school_name
-        else
-          #organized_hash = organized_hash.merge({city => [school_name]})
-        end
-      else
-        organized_hash = {city => school_name}
-      end
+      #if organized_hash
+      #  if organized_hash[city]
+        #  organized_hash[city] << school_name
+      #  else
+      #    organized_hash = organized_hash.merge({city => [school_name]})
+      #  end
+      #else
+      #  organized_hash = {city => school_name}
+      #end
     end
   end
 organized_hash
