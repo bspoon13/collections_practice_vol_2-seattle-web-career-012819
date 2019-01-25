@@ -87,7 +87,20 @@ cool_person = []
 cool_person
 end
 
-def organize_schools(array)
-array
-binding.pry
+def organize_schools(school_hash)
+organized_hash = {}
+  school_hash.each do |school_name, locate_info|
+    locate_info do |key, city|
+      if organized_hash[location] == city
+        organized_hash[location] << school_name
+      else 
+        organized_hash << {city: school_name}
+      end
+    end
+  end
+organized_hash
+end
+      
+         
+      
 end
