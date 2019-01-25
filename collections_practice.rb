@@ -75,7 +75,9 @@ i = 0
 keys
 end
 
+def find_cool(array)
 
+  
 
 
 
