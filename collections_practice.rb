@@ -101,4 +101,3 @@ organized_hash = {}
   end
 organized_hash
 end
-
