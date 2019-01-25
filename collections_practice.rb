@@ -95,6 +95,7 @@ organized_hash = {}
       #binding.pry
       if organized_hash[:city] == city
         organized_hash[:city] << school_name
+      binding.pry
       elsif organized_hash = {}
         organized_hash = {city: [school_name]}
       else
