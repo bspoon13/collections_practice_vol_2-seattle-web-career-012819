@@ -102,7 +102,7 @@ organized_hash = nil
           binding.pry
         end
       else
-        organized_hash = city => {[school_name]}
+        organized_hash = {city => [school_name]}
         binding.pry
       end
     end
