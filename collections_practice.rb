@@ -87,9 +87,7 @@ cool_person = []
 cool_person
 end
 
-
-
-
-def organize_schools(hash)
-
+def organize_schools(array)
+array
+binding.pry
 end
