@@ -94,7 +94,7 @@ organized_hash = nil
     location.each do |key, city|
       if organized_hash
         if organized_hash[city]
-        #  organized_hash[city] << school_name
+          organized_hash[city] << school_name
       #  else
       #    organized_hash = organized_hash.merge({city => [school_name]})
         end
