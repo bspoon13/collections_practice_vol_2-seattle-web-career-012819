@@ -107,4 +107,5 @@ organized_hash = nil
     end
   end
 organized_hash
+binding.pry
 end
