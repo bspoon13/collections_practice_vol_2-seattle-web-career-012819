@@ -76,8 +76,8 @@ keys
 end
 
 def find_cool(array)
-
-  
+binding.pry
+end
 
 
 
