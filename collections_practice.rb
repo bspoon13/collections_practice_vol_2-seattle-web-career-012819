@@ -76,7 +76,15 @@ keys
 end
 
 def find_cool(array)
-binding.pry
+cool_person = nil
+  array.each do |person|
+    person.each do |attribute, value|
+      if value == "cool"
+        cool_person = person
+      end
+    end
+  end
+cool_person        
 end
 
 
