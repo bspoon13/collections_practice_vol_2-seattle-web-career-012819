@@ -99,7 +99,6 @@ organized_hash = nil
             #binding.pry
           else
             organized_hash = organized_hash.merge({city => [school_name]})
-            binding.pry
           end
         end
       else
