@@ -103,6 +103,7 @@ organized_hash = nil
         end
       else
         organized_hash = {city: [school_name]}
+        binding.pry
       #binding.pry
       end
     end
