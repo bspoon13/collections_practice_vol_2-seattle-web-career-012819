@@ -91,6 +91,7 @@ def organize_schools(school_hash)
 organized_hash = {}
   school_hash.each do |school_name, locate_info|
     locate_info do |key, city|
+      binding.pry
       if organized_hash[:city] == city
         organized_hash[:city] << school_name
       else
