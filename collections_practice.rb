@@ -96,7 +96,7 @@ organized_hash = nil
         if organized_hash[city]
           organized_hash[city] << school_name
         else
-          organized_hash = organized_hash.merge({city => [school_name]})
+          #organized_hash = organized_hash.merge({city => [school_name]})
         end
       else
         organized_hash = {city => school_name}
