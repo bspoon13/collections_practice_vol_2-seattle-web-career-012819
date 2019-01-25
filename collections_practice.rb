@@ -100,11 +100,11 @@ test = 0
             binding.pry
           elsif city_name == city
             organized_hash[city] << school_name
-            binding.pry
+            #binding.pry
           else
             organized_hash = organized_hash.merge({city => [school_name]})
             test += 1
-            binding.pry
+            #binding.pry
           end
         end
       else
