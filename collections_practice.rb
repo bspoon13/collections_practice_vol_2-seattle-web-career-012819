@@ -92,7 +92,6 @@ organized_hash = nil
   school_hash.each do |school_name, location|
     #binding.pry
     location.each do |key, city|
-     binding.pry
       if organized_hash
         binding.pry
         if organized_hash[:city] == city
@@ -103,7 +102,7 @@ organized_hash = nil
           binding.pry
         end
       else
-        organized_hash = {city: [school_name]}
+        organized_hash = city => {[school_name]}
       end
     end
   end
