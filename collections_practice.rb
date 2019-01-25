@@ -96,6 +96,7 @@ organized_hash = nil
       if organized_hash
         if organized_hash[:city] == city
           organized_hash[:city] << school_name
+          binding.pry
         else
           organized_hash = organized_hash.merge(city: [school_name])
         end
