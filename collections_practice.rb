@@ -76,11 +76,11 @@ keys
 end
 
 def find_cool(array)
-cool_person = nil
+cool_person = []
   array.each do |person|
     person.each do |attribute, value|
       if value == "cool"
-        cool_person = person
+        cool_person << person
       end
     end
   end
