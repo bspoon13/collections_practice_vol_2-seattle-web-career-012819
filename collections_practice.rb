@@ -85,6 +85,7 @@ cool_person = nil
     end
   end
 cool_person
+binding.pry
 end
 
 
