@@ -98,7 +98,7 @@ organized_hash = nil
         else
           organized_hash = organized_hash.merge({city => [school_name]})
         end
-      else
+      else 
         organized_hash = {city => school_name}
       end
     end
